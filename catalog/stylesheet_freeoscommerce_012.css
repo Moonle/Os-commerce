@@ -1,0 +1,445 @@
+@charset "utf-8";
+
+/* CSS Document
+
+    Copyright (c) Freeoscommerce.com 2011
+
+	This file is part of a freeoscommerce.com template.  Please visit http://www.freeoscommerce.com for licensing and other information.
+*/
+
+html {
+width: 100%;
+height: 100%; 
+}
+
+body#freeoscommerce_012 {
+margin: 0px;
+padding: 0px;
+background: #0b0b0b;
+height: 100%;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #ffffff;
+}
+
+/* Main links */
+
+body#freeoscommerce_012 a:link {
+text-decoration: none;
+color: #8f8f8f;
+}
+
+body#freeoscommerce_012 a:visited {
+text-decoration: none;
+color: #8f8f8f;
+}
+
+body#freeoscommerce_012 a:hover {
+text-decoration: none;
+color: #6e6e6e;
+}
+
+body#freeoscommerce_012 a:active {
+text-decoration: none;
+color: #8f8f8f;
+}
+
+/* Menu links */
+
+div#menu a:link {
+text-decoration: none;
+color: #ffffff;
+}
+
+div#menu a:visited {
+text-decoration: none;
+color: #ffffff;
+}
+
+div#menu a:hover {
+text-decoration: none;
+color: #999999;
+}
+
+div#menu a:active {
+text-decoration: none;
+color: #ffffff;
+}
+
+/* Headings */
+
+body#freeoscommerce_012 h1 {
+font-size: 22px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_012 h2 {
+font-size: 20px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_012 h3 {
+font-size: 18px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_012 h4 {
+font-size: 16px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_012 h5 {
+font-size: 14px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_012 h6 {
+font-size: 12px;
+font-weight: normal;
+text-decoration: none;
+}
+
+div#wrapper1 {
+position: relative;
+width: 1011px;
+min-height: 100%;
+left: 50%;
+margin-left: -504px;
+background: url(images/freeoscommerce_012/main_bg.jpg) top center repeat-y;
+overflow: auto;
+}
+
+div#wrapper2 {
+position: relative;
+width: 983px;
+min-height: 500px;
+left: 50%;
+margin-left: -492px;
+background: url(images/freeoscommerce_012/center_bg.jpg) top center repeat-y;
+}
+
+div#menu_wrapper {
+position: relative;
+width: 983px;
+height: 53px;
+background: url(images/freeoscommerce_012/menu_bg.jpg) top center repeat-x;
+}
+
+div#menu {
+position: absolute;
+width: 100%;
+height: 20px;
+top: 25px;
+text-align: center;
+color: #ffffff;
+font-size: 14px;
+}
+
+div#menu span{
+margin: 0px 25px 0px 25px;
+}
+
+div#header {
+position: relative;
+width: 100%;
+height: 129px;
+background: url(images/freeoscommerce_012/header_bg.jpg) top center no-repeat;
+}
+
+/* Store name and/or logo */
+
+div#website_name {
+position: absolute;
+top: 28px;
+right: 60px;
+width: 500px;
+text-align: right;
+color: #ffffff;
+font-size: 18px;
+font-weight: bold;
+}
+
+div#website_name a:link {
+color: #ffffff;
+}
+
+div#website_name a:visited {
+color: #ffffff;
+}
+
+div#website_name a:hover {
+color: #ffffff;
+}
+
+div#website_name a:active {
+color: #ffffff;
+}
+
+div#content_wrapper {
+position: relative;
+width: 100%;
+min-height: 350px;
+overflow: hidden;
+}
+
+div#column_left {
+float: left;
+width: 174px;
+min-height: 250px;
+padding: 5px 15px 15px 15px;
+overflow: hidden;
+}
+
+div#content {
+float: left;
+width: 545px;
+min-height: 250px;
+padding: 5px 15px 15px 15px;
+overflow: hidden;
+}
+
+div#column_right {
+float: left;
+width: 174px;
+min-height: 250px;
+padding: 5px 15px 15px 15px;
+overflow: hidden;
+}
+
+/* Footer */
+
+div#footer {
+position: relative;
+width: 100%;
+min-height: 150px;
+background: #aa0404;
+overflow: auto;
+}
+
+div#footer_background {
+position: relative;
+width: 100%;
+height: 91px;
+background: url(images/freeoscommerce_012/footer_bg.jpg) top center no-repeat;
+}
+
+div#footer_content {
+position: relative;
+width: 950px;
+min-height: 20px;
+left: 50%;
+margin-left: -475px;
+color: #ffffff;
+text-align: center;
+padding-bottom: 20px;
+}
+
+div#footer .grid_24 {
+width: 100%;
+}
+
+/* Footer links */
+
+div#footer a:link {
+color: #000000;
+}
+
+div#footer a:visited {
+color: #000000;
+}
+
+div#footer a:hover {
+color: #2f2f2f;
+}
+
+div#footer a:active {
+color: #000000;
+}
+
+/* Message Stack */
+
+body#freeoscommerce_012 .messageStackError, body#freeoscommerce_012 .messageStackWarning { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #000000;
+background-color: #ffb3b5; 
+}
+
+body#freeoscommerce_012 .messageStackSuccess { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #000000;
+background-color: #0089d0; 
+}
+
+/* Product Listing */
+
+div.ui-widget-header {
+background: none;
+border: none;
+}
+
+table.productListingData {
+background: #2a2a2a;
+color: #ffffff
+}
+
+body#freeoscommerce_012 table.productListingData tr.alt td {
+background: #2d2d2d;
+}
+
+div.productListTable {
+background: none;
+border: none;
+}
+
+/* Columns */
+
+div#column_left div.infoBoxHeading, div#column_right div.infoBoxHeading {
+background: none;
+border: none;
+}
+
+div#column_left div.infoBoxContents, div#column_right div.infoBoxContents {
+background: none;
+border: none;
+}
+
+table.ui-widget-content {
+background: none;
+border: none;
+color: #ffffff;
+}
+
+div#column_left table.ui-widget-content a:link, div#column_right table.ui-widget-content a:link {
+color: #8f8f8f;
+}
+
+div#column_left table.ui-widget-content a:visited, div#column_right table.ui-widget-content a:visited {
+color: #8f8f8f;
+}
+
+div#column_left table.ui-widget-content a:hover, div#column_right table.ui-widget-content a:hover {
+color: #6e6e6e;
+}
+
+div#column_left table.ui-widget-content a:active, div#column_right table.ui-widget-content a:active {
+color: #8f8f8f;
+}
+
+/* Info box */
+
+.infoBoxContents {
+color: #ffffff;
+background: none;
+border: none;
+}
+
+/* Checkout */
+
+.checkoutBarFrom, .checkoutBarTo { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #8c8c8c;
+}
+
+body#freeoscommerce_012 .checkoutBarCurrent { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #ffffff; 
+}
+
+body#freeoscommerce_012 div.ui-progressbar-value {
+background: #aa0404;
+}
+body#freeoscommerce_012 .moduleRow { }
+
+body#freeoscommerce_012 .moduleRowOver { 
+background-color: #272727; 
+cursor: pointer; 
+cursor: hand; 
+}
+body#freeoscommerce_012 .moduleRowSelected { 
+background-color: #222222; 
+}
+
+a span.orderEdit {
+color: #0089d0;
+}
+
+/* Date picker */
+
+#freeoscommerce_012 table.ui-datepicker-calendar a:link {
+color: #000000;
+}
+
+/* Buttons */
+
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { 
+font-weight: bold; 
+}
+
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { 
+opacity: .7; 
+filter:Alpha(Opacity=70); 
+font-weight: normal; 
+}
+
+body#freeoscommerce_012 a:link span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_012 a:visited span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_012 a:hover span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_012 a:active span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_012 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+border: 1px solid #ffffff; 
+background: #aa0404 url(images/freeoscommerce_012/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x; 
+font-weight: bold; 
+color: #ffffff; 
+}
+body#freeoscommerce_012 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #2e6e9e;
+text-decoration: none;
+}
+body#freeoscommerce_012 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { 
+border: 1px solid #ffffff;
+background: #860303 url(images/freeoscommerce_012/ui-bg_glass_75_d0e5f5_1x400.png) 50% 50% repeat-x;
+font-weight: bold;
+color: #ffffff;
+}
+body#freeoscommerce_012 .ui-state-hover a, .ui-state-hover a:hover { 
+color: #ffffff;
+text-decoration: none;
+}
+body#freeoscommerce_012 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { 
+border: 1px solid #860303;
+background: #860303 url(images/freeoscommerce_012/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x;
+font-weight: bold;
+color: #ffffff;
+}
+body#freeoscommerce_012 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { 
+color: #ffffff;
+text-decoration: none;
+}
+body#freeoscommerce_012 .ui-widget :active { 
+outline: none;
+}
